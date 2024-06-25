@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Composition-2</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+        .container{
+            background-color: black;
+            height: 337px;
+            width: 409px;
+            display: grid;
+            grid-template-columns: 20px 50px 90px 50px 70px 35px 40px;
+            grid-template-rows: 100px 100px 50px 60px;
+            gap: 9px;
+        }
+        .item{
+            background-color: #F0F1EC;
+        }
+        .yellow1, .yellow2, .yellow3{
+            background-color: #f5f91e;
+        }
+        .red1, .red2, .red3{
+            background-color: #E72F24;
+        }
+        .blue1{
+            background-color: #1179f0;
+            grid-column: span 2;
+        }
+        .blue2{
+            background-color: #1179f0;
+        }
+        .white7, .white8{
+            grid-row: span 2;
+        }
+        .blue3{
+            background-color: #1179f0;
+            grid-column: span 2;
+        }
+        .yellow4{
+            background-color: #f5f91e;
+            grid-column: span 2;
+        }
+        .white11{
+            grid-column: span 2;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item white1"></div>
+        <div class="item yellow1"></div>
+        <div class="item red1"></div>
+        <div class="item blue1"></div>
+        <div class="item yellow2"></div>
+        <div class="item white2"></div>
+        <div class="item white3"></div>
+        <div class="item white4"></div>
+        <div class="item white5"></div>
+        <div class="item white6"></div>
+        <div class="item red2"></div>
+        <div class="item blue2"></div>
+        <div class="item white7"></div>
+        <div class="item white8"></div>
+        <div class="item white9"></div>
+        <div class="item blue3"></div>
+        <div class="item white10"></div>
+        <div class="item yellow3"></div>
+        <div class="item red3"></div>
+        <div class="item yellow4"></div>
+        <div class="item white11"></div>
+        <div class="item"></div>
+    </div>
+    
+</body>
+</html>
